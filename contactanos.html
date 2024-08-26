@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <title>BraVado Style</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .row {
+        display: flex;
+        padding: 15px;
+        text-decoration: none;
+      }
+      .row a {
+        padding: 15px;
+        text-decoration: none;
+        color: #000000;
+      }
+      main {
+        display: flex;
+        flex-direction: column; 
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+      main input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: dimgray">
+    <header class="row"background-color: rgb(0, 0, 0)">
+      <a href="index.html">inicio</a>
+      <a href="productos.html">productos</a>
+      <a href="#">contáctanos</a>
+    </header>
+    <main>
+        <h2 style="text-align: center">Cuéntanos tu experiencia</h2>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="phone" placeholder="Phone" />
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </main>
